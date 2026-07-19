@@ -174,11 +174,11 @@ tbody tr:last-child td{border-bottom:none}
 .risk-bar{width:36px;height:4px;border-radius:99px;background:var(--border-lt);overflow:hidden}
 .risk-bar-fill{height:100%;border-radius:99px;transition:width .3s ease}
 
-.badge{display:inline-flex;align-items:center;gap:5px;padding:3.5px 10px;border-radius:99px;border:1px solid;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;white-space:nowrap}
-.b-green{background:var(--green-bg);border-color:var(--green-bd);color:var(--green-d)}
-.b-amber{background:var(--amber-bg);border-color:var(--amber-bd);color:var(--amber-d)}
-.b-orange{background:var(--orange-bg);border-color:var(--orange-bd);color:var(--orange-d)}
-.b-red{background:var(--red-bg);border-color:var(--red-bd);color:var(--red-d)}
+.badge{display:inline-flex;align-items:center;gap:5px;padding:4px 10px;border-radius:99px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;white-space:nowrap}
+.b-green{background:#d8f5e8;color:var(--green-d)}
+.b-amber{background:#fdf0cd;color:var(--amber-d)}
+.b-orange{background:#ffe8d4;color:var(--orange-d)}
+.b-red{background:#fde3e3;color:var(--red-d)}
 
 @keyframes rowpulse{0%,100%{background:transparent;box-shadow:inset 3px 0 0 transparent}50%{background:var(--red-bg);box-shadow:inset 3px 0 0 var(--red)}}
 .row-pulse{animation:rowpulse 1.2s ease-in-out 4}
